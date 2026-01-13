@@ -1,0 +1,139 @@
+.admin {
+  padding: 20px;
+}
+
+.admin h1 {
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.appointment-table thead th {
+  text-align: center;
+  padding: 12px;
+  background-color: #f5f5f5;
+}
+
+.appointment-table tbody tr {
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.appointment-table tbody td {
+  padding: 12px;
+  text-align: center;
+}
+
+.add-btn {
+  background-color: #52c41a;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-doctor {
+  margin-top: 30px;
+}
+
+.add-doctor h1 {
+  margin-bottom: 12px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.form-grid input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.add-doctor-btn {
+  margin-top: 14px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+
+    .admin h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .appointment-table thead {
+    display: none;
+    }
+
+    .appointment-table,
+    .appointment-table tbody {
+    display: block;
+    width: 100%;
+    }
+
+    .appointment-table tr {
+    display: block;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    .appointment-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    }
+
+    .appointment-table td:last-child {
+    border-bottom: none;
+    }
+
+    .appointment-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #444;
+    }
+
+    .appointment-table td.action-cell {
+    justify-content: center;
+    margin-top: 10px;
+    }
+
+    .appointment-table td.action-cell::before {
+    content: "";
+    }
+
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .add-doctor-btn {
+      width: 100%;
+    }
+}

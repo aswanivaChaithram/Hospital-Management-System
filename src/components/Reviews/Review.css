@@ -1,0 +1,48 @@
+.review {
+    margin-top: 8%;   
+    text-align: center;
+}
+
+.review h1 {
+  color: #0056b3;
+}
+
+.review-desc {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.review-desc-div {
+  border: 2px solid #0056b3;
+  border-radius: 15px;
+  padding: 30px 20px;
+  background-color: #f9fbff;
+}
+
+.review-desc-div h3 {
+  color: #0056b3;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.review-desc-div p {
+  text-align: center;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Responsive Design */
+
+@media (max-width: 760px) {
+
+  .review h1 {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+  .review-desc {
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,105 @@
+.header {
+  height: 34vw;
+  background-image: url('../../assets/header.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: start; 
+  padding-top: 10%;
+  justify-content: start; 
+  padding-left: 60px; 
+  border-radius: 10px;
+}
+
+.header-text {
+  text-align: left;       
+  color: #fff;
+  max-width: 60%;
+}
+
+.header-text h1 {
+  font-size: 4.3vw;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.header-text p {
+  font-size: 1.5vw;
+  line-height: 1.6;
+}
+
+.header-text button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.header-text button:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+
+@media (max-width: 1050px) {
+  .header {
+    padding-left: 40px;
+  }
+
+  .header-text {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 760px) {
+  .header {  
+    height: 45vw;
+    padding-left: 20px;
+  }
+
+  .header-text {
+    max-width: 90%;
+  }
+
+  .header-text h1 {
+    font-size: 30px;
+  }
+
+  .header-text p {
+    font-size: 16px;
+  }
+
+  .header-text button {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    height: 55vw;
+    padding-left: 15px;
+    padding-top: 15%;
+  }
+
+  .header-text h1 {
+    font-size: 24px;
+  }
+
+  .header-text p {
+    font-size: 14px;
+  }
+
+  .header-text button {
+    padding: 8px 18px;
+    font-size: 12px;
+  }
+}

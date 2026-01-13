@@ -1,0 +1,36 @@
+.doctors {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.doctors h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0056b3;
+  font-size: 40px;
+}
+
+.doctors-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+@media (max-width: 1200px) {
+  .doctors-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .doctors-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .doctors-list {
+    grid-template-columns: 1fr;
+  }
+}
