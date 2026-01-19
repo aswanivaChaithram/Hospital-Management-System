@@ -4,7 +4,6 @@ import About from '../components/About/About'
 import Blog from '../components/Blog/Blog'
 import Review from '../components/Reviews/Review'
 import Contact from '../components/Contact/Contact'
-import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
