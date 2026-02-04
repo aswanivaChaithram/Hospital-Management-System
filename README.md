@@ -5,21 +5,19 @@ A comprehensive web application for managing hospital operations and patient app
 ## Features
 
 ### Patient Features
-- **Browse Doctors**: Explore doctors by specialization and department
+- **Browse Doctors**: Explore doctors
 - **Book Appointments**: Schedule appointments with available doctors
 - **View Doctor Details**: Check specialization, experience, availability, and consultation fees
 - **Manage Appointments**: View and cancel confirmed appointments from personal dashboard
-- **Filter by Department**: Search doctors by their specialty area
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
 ### Admin Features
-- **Dashboard Analytics**: Monitor all appointments and hospital operations
+- **Dashboard Analytics**: Monitor all appointments
 - **Manage Doctor Availability**: Update doctor schedules and availability status
 - **Patient Records**: Access patient appointment history and details
 
 ### General Features
 - **User Authentication**: Login system for patients and admin users
-- **Dynamic Navigation**: Real-time badge count for appointments
 - **Informative Content**: About section, blog posts, and patient reviews
 - **Contact System**: Direct communication channel with hospital
 - **Responsive Layout**: Mobile-first design approach
