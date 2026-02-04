@@ -1,4 +1,4 @@
-# LifeShades Hospital - Hospital Management System
+# Hospital Management System
 
 A comprehensive web application for managing hospital operations and patient appointments. Built with React, Vite, and React Router for seamless appointment booking and hospital administration.
 
